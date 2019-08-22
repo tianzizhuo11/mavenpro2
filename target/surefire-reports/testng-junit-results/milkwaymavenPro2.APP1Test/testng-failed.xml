@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [milkwaymavenPro2.APP1Test]" junit="true">
+  <test name="Command line test f798d0aa-de42-424b-b2a7-168f8d191062(failed)" junit="true">
+    <classes>
+      <class name="milkwaymavenPro2.APP1Test">
+        <methods>
+          <include name="testb"/>
+        </methods>
+      </class> <!-- milkwaymavenPro2.APP1Test -->
+    </classes>
+  </test> <!-- Command line test f798d0aa-de42-424b-b2a7-168f8d191062(failed) -->
+</suite> <!-- Failed suite [milkwaymavenPro2.APP1Test] -->

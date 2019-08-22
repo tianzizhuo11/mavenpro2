@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-milkwaymavenPro2.APP1Test">
+              <span class="suite-name border-failed">milkwaymavenPro2.APP1Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-milkwaymavenPro2.APP1Test">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-milkwaymavenPro2.APP1Test">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-milkwaymavenPro2.APP1Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-milkwaymavenPro2.APP1Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-milkwaymavenPro2.APP1Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-milkwaymavenPro2.APP1Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-milkwaymavenPro2.APP1Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-milkwaymavenPro2.APP1Test" class="hide-methods failed suite-milkwaymavenPro2.APP1Test"> (hide)</a> <!-- hide-methods failed suite-milkwaymavenPro2.APP1Test -->
+                      <a href="#" panel-name="suite-milkwaymavenPro2.APP1Test" class="show-methods failed suite-milkwaymavenPro2.APP1Test"> (show)</a> <!-- show-methods failed suite-milkwaymavenPro2.APP1Test -->
+                    </span>
+                    <div class="method-list-content failed suite-milkwaymavenPro2.APP1Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-milkwaymavenPro2.APP1Test" title="milkwaymavenPro2.APP1Test" hash-for-method="testb">testb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-milkwaymavenPro2.APP1Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-milkwaymavenPro2.APP1Test" class="hide-methods passed suite-milkwaymavenPro2.APP1Test"> (hide)</a> <!-- hide-methods passed suite-milkwaymavenPro2.APP1Test -->
+                      <a href="#" panel-name="suite-milkwaymavenPro2.APP1Test" class="show-methods passed suite-milkwaymavenPro2.APP1Test"> (show)</a> <!-- show-methods passed suite-milkwaymavenPro2.APP1Test -->
+                    </span>
+                    <div class="method-list-content passed suite-milkwaymavenPro2.APP1Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-milkwaymavenPro2.APP1Test" title="milkwaymavenPro2.APP1Test" hash-for-method="testa">testa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-milkwaymavenPro2.APP1Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-milkwaymavenPro2.AppTest">
+              <span class="suite-name border-passed">milkwaymavenPro2.AppTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-milkwaymavenPro2.AppTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-milkwaymavenPro2.AppTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-milkwaymavenPro2.AppTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-milkwaymavenPro2.AppTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-milkwaymavenPro2.AppTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-milkwaymavenPro2.AppTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-milkwaymavenPro2.AppTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-milkwaymavenPro2.AppTest" class="hide-methods passed suite-milkwaymavenPro2.AppTest"> (hide)</a> <!-- hide-methods passed suite-milkwaymavenPro2.AppTest -->
+                      <a href="#" panel-name="suite-milkwaymavenPro2.AppTest" class="show-methods passed suite-milkwaymavenPro2.AppTest"> (show)</a> <!-- show-methods passed suite-milkwaymavenPro2.AppTest -->
+                    </span>
+                    <div class="method-list-content passed suite-milkwaymavenPro2.AppTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-milkwaymavenPro2.AppTest" title="milkwaymavenPro2.AppTest" hash-for-method="testApp">testApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-milkwaymavenPro2.AppTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-milkwaymavenPro2.APP1Test" class="panel milkwaymavenPro2.APP1Test">
+          <div class="suite-milkwaymavenPro2.APP1Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">milkwaymavenPro2.APP1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testb">
+                  </a> <!-- testb -->
+                  <span class="method-name">testb</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertFalse(Assert.java:68)
+	at org.junit.Assert.assertFalse(Assert.java:79)
+	at milkwaymavenPro2.APP1Test.testb(APP1Test.java:27)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-milkwaymavenPro2.APP1Test-class-failed -->
+          <div class="suite-milkwaymavenPro2.APP1Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">milkwaymavenPro2.APP1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testa">
+                  </a> <!-- testa -->
+                  <span class="method-name">testa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-milkwaymavenPro2.APP1Test-class-passed -->
+        </div> <!-- panel milkwaymavenPro2.APP1Test -->
+        <div panel-name="suite-milkwaymavenPro2.AppTest" class="panel milkwaymavenPro2.AppTest">
+          <div class="suite-milkwaymavenPro2.AppTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">milkwaymavenPro2.AppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApp">
+                  </a> <!-- testApp -->
+                  <span class="method-name">testApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-milkwaymavenPro2.AppTest-class-passed -->
+        </div> <!-- panel milkwaymavenPro2.AppTest -->
+        <div panel-name="test-xml-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;milkwaymavenPro2.APP1Test&quot; junit=&quot;true&quot;&gt;
+  &lt;test name=&quot;Command line test f798d0aa-de42-424b-b2a7-168f8d191062&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;milkwaymavenPro2.APP1Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test f798d0aa-de42-424b-b2a7-168f8d191062 --&gt;
+&lt;/suite&gt; &lt;!-- milkwaymavenPro2.APP1Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;milkwaymavenPro2.AppTest&quot; junit=&quot;true&quot;&gt;
+  &lt;test name=&quot;Command line test 1071e234-fc0d-4b24-a167-439d4551f150&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;milkwaymavenPro2.AppTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 1071e234-fc0d-4b24-a167-439d4551f150 --&gt;
+&lt;/suite&gt; &lt;!-- milkwaymavenPro2.AppTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for milkwaymavenPro2.APP1Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test f798d0aa-de42-424b-b2a7-168f8d191062 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for milkwaymavenPro2.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 1071e234-fc0d-4b24-a167-439d4551f150 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for milkwaymavenPro2.APP1Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for milkwaymavenPro2.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for milkwaymavenPro2.APP1Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_milkwaymavenPro2.APP1Test');
+function tableData_milkwaymavenPro2.APP1Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testa')
+data.setCell(0, 2, 'milkwaymavenPro2.APP1Test')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testb')
+data.setCell(1, 2, 'milkwaymavenPro2.APP1Test')
+data.setCell(1, 3, 2);
+window.suiteTableData['milkwaymavenPro2.APP1Test']= { tableData: data, tableDiv: 'times-div-milkwaymavenPro2.APP1Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-milkwaymavenPro2.APP1Test">
+              </div> <!-- times-div-milkwaymavenPro2.APP1Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for milkwaymavenPro2.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_milkwaymavenPro2.AppTest');
+function tableData_milkwaymavenPro2.AppTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testApp')
+data.setCell(0, 2, 'milkwaymavenPro2.AppTest')
+data.setCell(0, 3, 2);
+window.suiteTableData['milkwaymavenPro2.AppTest']= { tableData: data, tableDiv: 'times-div-milkwaymavenPro2.AppTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-milkwaymavenPro2.AppTest">
+              </div> <!-- times-div-milkwaymavenPro2.AppTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for milkwaymavenPro2.APP1Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for milkwaymavenPro2.AppTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-milkwaymavenPro2.APP1Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">milkwaymavenPro2.APP1Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testa</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testb</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">milkwaymavenPro2.AppTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApp</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-milkwaymavenPro2.AppTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">milkwaymavenPro2.APP1Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testa</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testb</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">milkwaymavenPro2.AppTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApp</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
