@@ -19,7 +19,7 @@ public class APP1Test {
 	@Test
 	public void testa() {
 		assertTrue(true);
-		System.out.println("断言成功");
+		System.out.println("断言成功11");
 	}
 	
 	@Test
