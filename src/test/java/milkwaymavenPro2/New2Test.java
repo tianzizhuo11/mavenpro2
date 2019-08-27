@@ -11,6 +11,7 @@ public class New2Test {
   @Test
   public void f() {
 	  assertTrue(false);
+	  System.out.println("1111");
   }
   @BeforeTest
   public void beforeTest() {

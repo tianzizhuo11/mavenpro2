@@ -20,6 +20,7 @@ public class APP1Test {
 	public void testa() {
 		assertTrue(true);
 		System.out.println("断言成功22");
+		System.out.println("APP1");
 	}
 	
 	@Test

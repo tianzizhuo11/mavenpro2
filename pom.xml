@@ -67,7 +67,7 @@
                   <suiteXmlFile>E:\eclipse-workspace\mavenPro2\src\test\java\testng.xml</suiteXmlFile>
                </suiteXmlFiles> 
                 
-            </configuration>            
+            </configuration>           
         </plugin>
         
 
